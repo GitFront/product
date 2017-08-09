@@ -1,6 +1,6 @@
 
 window.onclick=function(){
-    document.getElementById("sp")=function(){
+    document.getElementById("sp").onclick=function(){
         console.log("hello world");
     }
 
